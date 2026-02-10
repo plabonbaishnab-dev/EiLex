@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="top">
+        <h1>EiLex</h1>
+        <div id="main">
+            <div id="nav">
+                <a href="">Home</a>
+                <a href="">Trending</a>
+                <a href="">Kids</a>
+                <a href="">Shows</a>
+                <a href="">My List</a>
+            </div>
+        </div>
+        <div id="search">
+            <input type="text" placeholder="Search">
+        </div>
+    </div>
+    <div class="banner">
+        
+        <div class="content interstellar active">
+            <img src="./assets/interstellar title.png" class="movie-title">
+        <h4>
+            <span>2014 </span><span><i>12+</i> </span><span>2h 49min</span><span>Sci-fi</span>
+        </h4>
+        <p>
+            Set in a dystopian future where Earth is suffering from catastrophic blight and famine, the film follows a group of astronauts who travel through space in search of a new home for mankind.
+        </p>
+        <div class="but">
+            <button>Watch</button>
+            <button id="b1">My List</button>
+        </div>
+        </div>
+        <div class="content insidious">
+            <img src="./assets/Insidious Logo.png" class="movie-title">
+        <h4>
+            <span>2023 </span><span><i>16+</i> </span><span>1h 47min</span><span>Horror</span>
+        </h4>
+        <p>
+            Insidious: The Red Door is a 2023 American supernatural horror film directed by Patrick Wilson from a screenplay by Scott Teems based on a story by Leigh Whannell and Teems. Produced by Screen Gems and Blumhouse in association with Stage 6, it is a direct sequel to Insidious: Chapter 2 (2013)
+        </p>
+        <div class="but">
+            <button>Watch</button>
+            <button id="b1">My List</button>
+        </div>
+        </div>
+        <div class="content cars">
+            <img src="./assets/cars logo.png" class="movie-title">
+        <h4>
+            <span>2006 </span><span><i>6+</i> </span><span>1h 57min</span><span>Kids</span>
+        </h4>
+        <p>
+            Set in a world populated entirely by anthropomorphic vehicles, the film follows a young self-obsessed racecar named Lightning McQueen who, on the way to the most important race of his life, becomes stranded in a forgotten town along U.S. Route 66 called Radiator Springs, where he learns about friendship and begins to reevaluate his priorities.
+        </p>
+        <div class="but">
+            <button>Watch</button>
+            <button id="b1">My List</button>
+        </div>
+        </div>
+        <div class="content sq">
+            <img src="./assets/sq title.png" class="movie-title">
+        <h4>
+            <span>2021 </span><span><i>16+</i> </span><span>9ep(1hr)</span><span>Drama</span>
+        </h4>
+        <p>
+            The series revolves around a secret contest where 456 players, all of whom are in deep financial hardship, risk their lives to play a series of children's games that result in death if eliminated, for the chance to win a ₩45.6 billion (US$39.86 million) prize.
+        </p>
+        <div class="but">
+            <button>Watch</button>
+            <button id="b1">My List</button>
+        </div>
+        </div>
+        <div class="content titanic">
+            <img src="./assets/Titanic title.png" class="movie-title">
+        <h4>
+            <span>1997 </span><span><i>18+</i> </span><span>3h 15min</span><span>Romance</span>
+        </h4>
+        <p>
+            Titanic is a 1997 American epic historical romance film written and directed by James Cameron. Incorporating both historical and fictional aspects, it is based on accounts of the sinking of RMS Titanic in 1912. Leonardo DiCaprio and Kate Winslet star as members of different social classes who fall in love during the ship's ill-fated maiden voyage.
+        </p>
+        <div class="but">
+            <button>Watch</button>
+            <button id="b1">My List</button>
+        </div>
+        </div>
+        <div class="carousel-box">
+            <div class="carousel">
+                <div class="carousel-item"
+                onclick="changeBG('interstellar h.jpg','interstellar')">
+                    <img src="./assets/interstellar v.jpg" alt="">
+                </div>
+                <div class="carousel-item"
+                onclick="changeBG('insidious v.jpg','insidious')">
+                    <img src="./assets/insidious v.jpg" alt="">
+                </div>
+                <div class="carousel-item"
+                onclick="changeBG('Cars h.jpeg','cars')">
+                    <img src="./assets/Cars v.jpeg" alt="">
+                </div>
+                <div class="carousel-item"
+                onclick="changeBG('sq h.jpeg','sq')">
+                    <img src="./assets/sq h.jpeg" alt="">
+                </div>
+                <div class="carousel-item"
+                onclick="changeBG('titanic h.jpeg','titanic')">
+                    <img src="./assets/titanic v.jpeg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <script src="script.js"></script>
+    <script>
+
+    // $(document).ready(function(){
+    //     $('.carousel').carousel();
+    // });
+    // </script>
+</body>
+</html>
